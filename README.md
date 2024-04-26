@@ -27,20 +27,20 @@ Minimal Cursor Movement: Moves the cursor subtly, reducing the likelihood of int
 Boundary Safe: Ensures the cursor does not move outside the visible area of the screen.
 Continuous Operation: Runs indefinitely until manually stopped.
 
-**Stopping the Script**
+# Stopping the Script
 
 To stop the script, you can either:
 
 Close the Command Prompt window where the script is running.
 Press Ctrl + C within the Command Prompt to interrupt the script.
 
-**Requirements**
+# Requirements
 
 Windows operating system with PowerShell support.
 
 System.Windows.Forms assembly available on your system (typically available by default on Windows).
 
-**Disclaimer**
+# Disclaimer
 
 This script is intended for personal use and should not be used to circumvent company policies or other administrative controls regarding workstation management. Always use responsibly and with permission where required.
 

@@ -15,7 +15,9 @@ Open Command Prompt: Press Win + R, type cmd, and press Enter.
 
 **Execute the Command:**
 
+```powershell
 powershell -ExecutionPolicy Bypass -Command "Add-Type -AssemblyName System.Windows.Forms; while ($true) { $currentPos = [System.Windows.Forms.Cursor]::Position; $newX = [Math]::Max(0, [Math]::Min([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Width, $currentPos.X + (Get-Random -Minimum -10 -Maximum 11))); $newY = [Math]::Max(0, [Math]::Min([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Height, $currentPos.Y + (Get-Random -Minimum -10 -Maximum 11))); [System.Windows.Forms.Cursor]::Position = New-Object System.Drawing.Point($newX, $newY); Start-Sleep -Seconds 5 }"
+```
 
 This command bypasses the default PowerShell execution policy to allow the script to run without interruptions, and it continuously adjusts the cursor position within the bounds of the screen.
 

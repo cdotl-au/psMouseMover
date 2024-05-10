@@ -1,5 +1,5 @@
 # psMouseMover
-Create a shortcut with a hotkey and you can have the mouse randomly move every 5 seconds to stop computer locking
+Create a shortcut with a hotkey and you can have the mouse randomly move every 5 seconds to stop the computer locking or screensaver activating.
 
 This PowerShell script (one liner) subtly moves the mouse cursor in small, random increments every 5 seconds. It is particularly useful for preventing screensavers, sleep modes, or automatic logouts from activating due to inactivity while still keeping cursor movements minimal and less intrusive.
 
